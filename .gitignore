@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# checkpoint system
+.status
+.attempts
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
