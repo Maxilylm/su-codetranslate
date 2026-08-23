@@ -2,7 +2,7 @@
 
 > Translate code between ten languages, side by side, with notes on what actually changed.
 
-**[Live demo](https://su-codetranslate.vercel.app)**
+**[Live demo](https://codetranslate-mlx.vercel.app)**
 
 Porting a function to another language is rarely a line-for-line substitution — the interesting part is what the target language does differently. CodeTranslate makes two calls to Llama 3.3 70B: the first translates the code idiomatically into the target language, and the second explains, in a few bullet points, the key differences that translation exposed — type system, memory model, syntax, idiomatic patterns. Both source and output sit in side-by-side panes you can swap in one click.
 
@@ -31,4 +31,4 @@ Requires `GROQ_API_KEY` in `.env.local`.
 
 ---
 
-Part of a series of 91 small web apps. [Browse them all](https://su-slopmachine.vercel.app).
+Part of a series of 91 small web apps. [Browse them all](https://lorenzoylosada.vercel.app).
