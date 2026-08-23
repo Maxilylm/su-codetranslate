@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en" className={`${geistMono.variable} h-full dark`}>
       <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-100 font-mono">
         {children}
-              <script src="https://78slopads.vercel.app/api/promo.js" defer></script>
+              <script src="https://su-slopads.vercel.app/api/promo.js" defer></script>
       </body>
     </html>
   );
